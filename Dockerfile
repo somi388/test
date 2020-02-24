@@ -9,3 +9,4 @@ ADD package.json /var/www/package.json
 WORKDIR /var/www
 RUN npm install
 CMD nodejs app.js
+CMD nodejs app.js
